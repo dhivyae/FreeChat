@@ -1,0 +1,239 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100vh;
+	font-family: 'Source Sans Pro', sans-serif;	
+    box-sizing: border-box;	
+}
+
+header > h1 {
+
+
+	font-size: 4em;
+	color: green;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;	
+	margin-bottom: 1em
+}
+
+.msg {
+
+	display: inline-block;
+    font-size: 1em;
+    font-style: italic;
+    max-width: 80%;
+    min-width: auto;
+    text-align: left;	
+}
+
+.from-msg {
+
+	display: inline-block;
+    font-size: 1.3em;
+    font-style: italic;
+    width: 60%;
+}
+
+
+.current-active-person {
+
+	color: white !important;    
+    background-color: #03a9f4 !important;
+}
+
+
+.user-letter-ping {
+
+    width: 100%;
+    height: 100%;
+    padding: 3px 0 0 13px;
+    font-size: 1.3em;
+    color: white;
+}
+
+.user-letter {
+
+	padding-right: 0.3em;
+    color: white;
+    padding-top: 2px;
+}
+
+
+.pic-ping {
+
+	width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1.4em;
+    background-color: #009688;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 5px;  
+
+}
+
+
+.pic {
+
+	width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1.4em;
+    background-color: blue;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 5px;  
+
+}
+
+.my-message {
+
+	display: block;
+    float: right;
+    min-height: 30px;
+    width: 80%;
+    color: black;
+    padding-top: 20px;
+    padding-left: 3em;
+    text-align: right;
+    font-size: 1.5em;  
+    padding-bottom: 1.2em;
+}
+
+.message-ping {
+
+	display: block;
+    float: left;
+    min-height: 30px;
+    width: 100%;
+    color: #009688;
+    padding-top: 20px;
+}
+
+.messenger-container {
+
+	height: 100%;
+}
+
+.message-container {
+
+	height: calc(100% - 55px);
+	overflow-y: scroll;
+}
+
+.message-box {
+
+    width: 99%;
+    height: 50px;
+    font-size: 1.4em;
+
+}
+
+.active-user {
+
+	padding-left: 1em;
+    height: 35px;
+    padding-top: 15px;
+    color: #4093d6;
+    font-size: 1.4em;
+    background-color: #efefef;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.online-container {
+
+    display: inline-block;
+    float: right;
+    margin-right: 0;
+/*    margin-top: 15%;
+*/    width: 39%;
+    height: 80%;
+/*    border: 2px gray solid;
+*/    overflow-y: scroll;
+}
+
+.chat-container {
+
+    display: inline-block;
+    margin-left: 0;
+    width: 60%;
+    height: 80%;
+    min-height: 80%;
+    background-color: white;
+/*    border: 2px gray solid;
+*//*    margin-top: 15%;
+*/}
+
+.cre-text {
+
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    width: 250px;
+    height: 50px;
+    margin-top: 1em;
+    font-size: 1em;   
+}
+
+.connect {
+
+	background-color: green;
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    width: 250px;
+    height: 50px;
+    margin-top: 1em;
+    font-size: 1.2em;
+    border: 1px solid light-green;
+    color: white;
+}

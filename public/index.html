@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FreeChat</title>
+  <meta charset="UTF-8" />
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+
+  <header><h1>FREECHAT Inc<h1></header>
+  <div class='loginForm'>
+
+        <input class='cre-text' id="name" type='text' placeholder="Your name"/>
+        <input class='cre-text' id="email" type='text' placeholder="your email"/>        
+        <input class='connect' id="connect" type="button" value="Let's Chat" />
+
+  </div>
+  
+  <div class='messenger-container'>
+
+    <div class='chat-container'>
+    <div class='message-container'></div>    
+    <input class='message-box' type='text' placeholder="Enter message to send"/>        
+    </div>
+    <div class='online-container'></div>
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script  src="/js/messenger.js"></script>
+
+<!--   Status: <span id="status"></span><br />
+  URL: <input id="url" /><br />
+  <input id="open" type="button" value="Connect" />;
+  <input id="close" type="button" value="Disconnect" /><br />
+  <input id="send" type="button" value="Let's Chat" />;
+  <input id="text" /><br />
+  <span id="message"></span>
+ --></body>
+</html>
